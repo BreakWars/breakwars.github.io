@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -142,17 +141,3 @@
 			color: #fff;
 		}
 	</style>
-
-	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-	<script>
-		$(document).ready(function() {
-			$("audio").trigger("play");
-			$(".news-div").fadeIn(1000);
-			$(".news").fadeIn(1000);
-			setTimeout(function() {
-				$(".button-div").fadeIn(1000);
-			}, 1000);
-		});
-	</script>
-</body>
-</html>
