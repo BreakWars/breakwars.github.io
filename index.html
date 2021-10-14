@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Music</title>
+	<title>BreakWars</title>
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 <body>
@@ -115,6 +115,9 @@
 				</div>
 			</div>
 		</div>
+		<div>
+			<audio src="music.mp3" loop="true"></audio>
+		</div>
 	</div>
 
 	<style>
@@ -141,5 +144,15 @@
 	</style>
 
 	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<script>
+		$(document).ready(function() {
+			$("audio").trigger("play");
+			$(".news-div").fadeIn(1000);
+			$(".news").fadeIn(1000);
+			setTimeout(function() {
+				$(".button-div").fadeIn(1000);
+			}, 1000);
+		});
+	</script>
 </body>
 </html>
