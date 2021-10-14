@@ -22,6 +22,30 @@
                     <a href="https://vk.com/jcraft" class="nw3"></a>
                 </div>
             </div>
+            <div class="news">
+                <div class="header"><h3>PaperSpigot</h3></div>
+                <div class="content">
+                   <img src="img\news2.jpg" alt="">
+                    - Ядро сервера Выживание переведено на PaperSpigot<br>
+					- Выживание переименовано в Epsilon
+                </div>
+                <div class="footer">
+                    <span>Дата: <span class="red">30-08-2020</span>  |  Автор: <span class="red">jeane1</span>
+                    <a href="https://vk.com/jcraft" class="nw3"></a>
+                </div>
+            </div>
+            <div class="news">
+                <div class="header"><h3>Обновление Выживания до 1.16.2</h3></div>
+                <div class="content">
+                   <img src="img\news1.jpg" alt="">
+                    - Сервер Выживание обновлён до 1.16.2<br>
+					- Лаунчер Выживание обновлён до 1.16.2
+                </div>
+                <div class="footer">
+                    <span>Дата: <span class="red">18-08-2020</span>  |  Автор: <span class="red">jeane1</span>
+                    <a href="https://vk.com/jcraft" class="nw3"></a>
+                </div>
+            </div>
         </div>
         <div id="right">
             <?php include('online_stats.php') ?>
